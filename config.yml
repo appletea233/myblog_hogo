@@ -111,10 +111,10 @@ params:
     defaultTheme: auto  # defaultTheme: light or  dark 
     disableThemeToggle: false
     DateFormat: "2006-01-02"
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     ShowLastMod: true
-    # disableSpecialistPost: true
+    # disableSpecialistPost: true # 显示分享按钮
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
