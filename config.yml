@@ -128,7 +128,13 @@ params:
     TocOpen: true # 自动展开目录
 
     comments: true
-    
+
+    customcss:
+    - "assets/css/xx.css"
+
+    customjs:
+    - "assets/js/xx.js"
+
     socialIcons:
         - name: github
           url: "https://github.com/appletea233"
