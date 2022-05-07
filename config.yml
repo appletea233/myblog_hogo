@@ -54,10 +54,10 @@ languages:
           #   url: https://www.xyming108.top
       menu:
         main:
-          # - identifier: search
-          #   name: 🔍搜索
-          #   url: search
-          #   weight: 1
+          - identifier: search
+            name: 🔍搜索
+            url: search
+            weight: 1
           - identifier: home
             name: 🏠主页
             url: /
@@ -102,97 +102,97 @@ outputs:
         - JSON
 
 params:
-    env: production #   to enable google analytics, opengraph, twitter-cards and schema.
-    # description: "这是一个纯粹的博客......"
-    author: Appletea
-    # author: ["Me", "You"] # multiple authors
+  env: production #   to enable google analytics, opengraph, twitter-cards and schema.
+  # description: "这是一个纯粹的博客......"
+  author: Appletea
+  # author: ["Me", "You"] # multiple authors
 
-  
-    defaultTheme: auto  # defaultTheme: light or  dark 
-    disableThemeToggle: false
-    DateFormat: "2006-01-02"
-    ShowShareButtons: false
-    ShowReadingTime: true
-    ShowLastMod: true
-    # disableSpecialistPost: true # 显示分享按钮
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    hideFooter: false # 隐藏页脚
-    ShowWordCounts: true
-    VisitCount: true
 
-    ShowLastMod: true #显示文章更新时间
+  defaultTheme: auto  # defaultTheme: light or  dark 
+  disableThemeToggle: false
+  DateFormat: "2006-01-02"
+  ShowShareButtons: false
+  ShowReadingTime: true
+  ShowLastMod: true
+  # disableSpecialistPost: true # 显示分享按钮
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideFooter: false # 隐藏页脚
+  ShowWordCounts: true
+  VisitCount: true
 
-    ShowToc: true # 显示目录
-    TocOpen: true # 自动展开目录
+  ShowLastMod: true #显示文章更新时间
 
-    comments: true
+  ShowToc: true # 显示目录
+  TocOpen: true # 自动展开目录
 
-    customcss:
-    - "assets/css/xx.css"
+  comments: true
 
-    customjs:
-    - "assets/js/xx.js"
+  customcss:
+  - "assets/css/xx.css"
 
-    twikoo:
-      version: 1.5.9
+  customjs:
+  - "assets/js/xx.js"
 
-    socialIcons:
-        - name: github
-          url: "https://github.com/appletea233"
-        # - name: twitter
-        #   url:  "img/twitter.png"
-        - name: facebook
-          url: "https://www.facebook.com"
-        # - name: instagram
-        #   url: "img/instagram.png"
-        # - name: QQ
-        #   url: "img/qq.png"
-        # - name: WeChat
-        #   url: "img/wechat.png"
-        # - name: Phone
-        #   url: "img/phone.png"
-        - name: email
-          url: "mailto:1530457905@qq.com"
-        - name: RSS
-          url: "index.xml"
+  twikoo:
+    version: 1.5.9
 
-    # editPost:
-    #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    #     Text: "Suggest Changes" # edit text
-    #     appendFilePath: true # to append file path to Edit link
+  socialIcons:
+      - name: github
+        url: "https://github.com/appletea233"
+      # - name: twitter
+      #   url:  "img/twitter.png"
+      - name: facebook
+        url: "https://www.facebook.com"
+      # - name: instagram
+      #   url: "img/instagram.png"
+      # - name: QQ
+      #   url: "img/qq.png"
+      # - name: WeChat
+      #   url: "img/wechat.png"
+      # - name: Phone
+      #   url: "img/phone.png"
+      - name: email
+        url: "mailto:1530457905@qq.com"
+      - name: RSS
+        url: "index.xml"
 
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
+  # editPost:
+  #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  #     Text: "Suggest Changes" # edit text
+  #     appendFilePath: true # to append file path to Edit link
 
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
+  # label:
+  #     text: "Home"
+  #     icon: icon.png
+  #     iconHeight: 35
 
-    assets:
-        favicon: "img/Q.jpg"
-        favicon16x16: "img/Q.jpg"
-        favicon32x32: "img/Q.jpg"
-        apple_touch_icon: "Q.jpg"
-        safari_pinned_tab: "Q.jpg"
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
 
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
+  assets:
+      favicon: "img/Q.jpg"
+      favicon16x16: "img/Q.jpg"
+      favicon32x32: "img/Q.jpg"
+      apple_touch_icon: "Q.jpg"
+      safari_pinned_tab: "Q.jpg"
 
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 1
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary"]
+  cover:
+      hidden: true # hide everywhere but not in structured data
+      hiddenInList: true # hide on list pages and home
+      hiddenInSingle: true # hide on single page
+
+  fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 1
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary"]
 
 
 taxonomies:
