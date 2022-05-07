@@ -135,6 +135,9 @@ params:
     customjs:
     - "assets/js/xx.js"
 
+    twikoo:
+      version: 1.5.9
+
     socialIcons:
         - name: github
           url: "https://github.com/appletea233"
@@ -190,8 +193,6 @@ params:
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary"]
 
-    twikoo:
-      version: 1.4.11
 
 taxonomies:
     category: categories
