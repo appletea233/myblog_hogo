@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://appletea233.github.io/myblog_hogo/sitemap.xml
