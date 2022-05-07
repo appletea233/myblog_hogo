@@ -209,8 +209,8 @@ markup:
         codeFences: true  
         guessSyntax: true
         lineNos: true
-        # noClasses: false
-        # style: monokai
+        noClasses: false
+        style: monokai
         style: darcula
 
         # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
