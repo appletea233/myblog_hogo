@@ -2,6 +2,7 @@ baseURL: http://appletea233.github.io/myblog_hogo
 languageCode: zh-cn # en-us
 title: Appletea's Blog
 theme: "PaperMod"
+imageUrl: "img/Q.jpg"
 
 enableInlineShortcodes: true
 enableEmoji: true # 允许使用 Emoji 表情，建议 true
@@ -53,10 +54,10 @@ languages:
           #   url: https://www.xyming108.top
       menu:
         main:
-          - identifier: search
-            name: 🔍搜索
-            url: search
-            weight: 1
+          # - identifier: search
+          #   name: 🔍搜索
+          #   url: search
+          #   weight: 1
           - identifier: home
             name: 🏠主页
             url: /
@@ -172,12 +173,12 @@ params:
     #     google:
     #         SiteVerificationTag: "XYZabc"
 
-    # assets:
-    #     favicon: "img/Q.gif"
-    #     favicon16x16: "img/Q.gif"
-    #     favicon32x32: "img/Q.gif"
-    #     apple_touch_icon: "Q.gif"
-    #     safari_pinned_tab: "Q.gif"
+    assets:
+        favicon: "img/Q.jpg"
+        favicon16x16: "img/Q.jpg"
+        favicon32x32: "img/Q.jpg"
+        apple_touch_icon: "Q.jpg"
+        safari_pinned_tab: "Q.jpg"
 
     # cover:
     #     hidden: true # hide everywhere but not in structured data
