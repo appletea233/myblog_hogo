@@ -37,7 +37,7 @@ languages:
       profileMode:
         enabled: true
         title: (〃'▽'〃)
-        subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👏🏼欢迎苹果茶(Appletea)的博客<br/>👇联系方式"
+        subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👏🏼欢迎来到苹果茶(Appletea)的博客<br/>👇联系方式"
         imageUrl: "img/Q.jpg"
         imageTitle: 
         imageWidth: 150
@@ -101,9 +101,9 @@ outputs:
         - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    env: production #   to enable google analytics, opengraph, twitter-cards and schema.
     # description: "这是一个纯粹的博客......"
-    author: Sulv
+    author: Appletea
     # author: ["Me", "You"] # multiple authors
 
   
@@ -112,6 +112,7 @@ params:
     DateFormat: "2006-01-02"
     ShowShareButtons: true
     ShowReadingTime: true
+    ShowLastMod: true
     # disableSpecialistPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
