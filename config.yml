@@ -45,7 +45,7 @@ languages:
         imageHeight: 150
         buttons:
           - name: 👨🏻‍💻技术
-            url: posts/tech
+            url: posts/blog
           - name: 📕阅读
             url: posts/read
           - name: 🏖生活
@@ -114,6 +114,8 @@ params:
   ShowShareButtons: false
   ShowReadingTime: true
   ShowLastMod: true
+  ShowTags: true
+  page_view_conter: true
   # disableSpecialistPost: true # 显示分享按钮
   displayFullLangName: true
   ShowPostNavLinks: true

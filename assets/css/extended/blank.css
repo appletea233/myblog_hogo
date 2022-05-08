@@ -219,3 +219,15 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
         font-size: 18px;
     }
 }
+
+.page-tag {
+    font-size: 14px;
+    font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+    letter-spacing: -0.005rem;
+    font-weight: 400;
+    color: #666 !important;
+    font-style: normal;
+    margin-right: 5px;
+    margin-left: 0px;
+    display: flex;
+  }

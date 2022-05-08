@@ -1,4 +1,4 @@
-{{- $scratch := newScratch }}
+<!-- {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
 {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
@@ -18,7 +18,7 @@
 
 {{- with ($scratch.Get "meta") }}
 {{- delimit . "&nbsp;·&nbsp;" -}}
-{{- end -}}
+{{- end -}} -->
 
 {{- $scratch := newScratch }}
 <!-- 创建时间 -->
@@ -44,9 +44,30 @@
 <!-- 作者 -->
 {{- with (partial "author.html" .) }}
 {{- $scratch.Add "meta" (slice .) }}
+{{- $scratch.Add "meta" (slice (default (printf "标签: " ))) }}
+{{- end }}
+
+<!-- 标签 -->
+{{- if (.Param "ShowTags") -}}
+{{- $scratch.Add "meta" (slice (default (printf "标签: " ))) }}
 {{- end }}
 
 <!-- 分隔方式 -->
 {{- with ($scratch.Get "meta") }}
 {{- delimit . "&nbsp;|&nbsp;" -}}
 {{- end -}}
+
+<!-- 标签 -->
+{{- if (.Param "ShowTags") -}}
+&nbsp;标签:&nbsp;
+{{ with .Params.tags }}
+
+  {{ range . }}
+    <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>&nbsp
+  {{ end }}
+  
+{{ end }}
+
+|本文总阅读量:&nbsp<span id="busuanzi_value_page_pv"></span>次
+
+{{- end }}
