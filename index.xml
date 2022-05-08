@@ -17,8 +17,9 @@
     </item>
     
     
+    
     <item>
-      <title>Tags</title>
+      <title>🔖标签</title>
       <link>http://appletea233.github.io/myblog_hogo/tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -26,9 +27,8 @@
       <description></description>
     </item>
     
-    
     <item>
-      <title>关于</title>
+      <title>🙋🏻‍♂️关于</title>
       <link>http://appletea233.github.io/myblog_hogo/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -37,7 +37,7 @@
     </item>
     
     <item>
-      <title>友链</title>
+      <title>🤝友链</title>
       <link>http://appletea233.github.io/myblog_hogo/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
