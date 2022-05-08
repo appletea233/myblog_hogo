@@ -35,6 +35,10 @@ languages:
       languageName: "English"
       # contentDir: content/english
       weight: 1
+      homeInfoParams:
+        Title: Hi there wave
+        Content: Can be Info, links, about...
+
       profileMode:
         enabled: true
         title: (〃'▽'〃)
