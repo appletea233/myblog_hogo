@@ -38,36 +38,34 @@
 
 <!-- 大概需要花费的阅读时间 -->
 {{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (default (printf "时长: %d分钟" .ReadingTime))) }}
+{{- $scratch.Add "meta" (slice (default (printf "时长:&nbsp;%d分钟" .ReadingTime))) }}
 {{- end }}
 
 <!-- 作者 -->
 {{- with (partial "author.html" .) }}
 {{- $scratch.Add "meta" (slice .) }}
-{{- $scratch.Add "meta" (slice (default (printf "标签: " ))) }}
 {{- end }}
 
 <!-- 标签 -->
 {{- if (.Param "ShowTags") -}}
-{{- $scratch.Add "meta" (slice (default (printf "标签: " ))) }}
+{{- $scratch.Add "meta" (slice (default (printf "标签:" ))) }}
 {{- end }}
 
 <!-- 分隔方式 -->
 {{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;|&nbsp;" -}}
+{{- delimit . "&nbsp;" -}}
 {{- end -}}
 
 <!-- 标签 -->
 {{- if (.Param "ShowTags") -}}
-&nbsp;标签:&nbsp;
+标签:
 {{ with .Params.tags }}
 
   {{ range . }}
-    <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>&nbsp
+    <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
   {{ end }}
   
 {{ end }}
-
-|本文总阅读量:&nbsp<span id="busuanzi_value_page_pv"></span>次
+<p>本文总阅读量:&nbsp<span id="busuanzi_value_page_pv"></span>次</p>
 
 {{- end }}

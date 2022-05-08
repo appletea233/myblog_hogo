@@ -231,3 +231,11 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     margin-left: 0px;
     display: flex;
   }
+
+body,html
+{
+    font-size: 1em;
+    line-height: 1.65em;
+    font-family:'Noto Serif SC', serif;
+    /* font-weight:300;color:#444 background-color: #ecf0f1; */
+}

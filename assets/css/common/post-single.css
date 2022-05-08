@@ -17,7 +17,7 @@
 .breadcrumbs {
     color: var(--secondary);
     font-size: 14px;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
 }
 
