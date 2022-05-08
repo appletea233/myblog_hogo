@@ -48,8 +48,12 @@ languages:
             url: posts/blog
           - name: 📕阅读
             url: posts/read
-          - name: 🏖生活
-            url: posts/life
+          - name: 🥛生活
+            url: posts/life 
+          - name: 🦄UIPlanner
+            url: "http://47.94.184.94/"
+          - name: 📚LLwiki
+            url: "http://47.108.192.247/wiki/"
           # - name: 🌹素履的博客
           #   url: https://www.xyming108.top
       menu:
@@ -183,9 +187,9 @@ params:
       safari_pinned_tab: "Q.jpg"
 
   cover:
-      hidden: true # hide everywhere but not in structured data
-      hiddenInList: true # hide on list pages and home
-      hiddenInSingle: true # hide on single page
+      hidden: false # hide everywhere but not in structured data
+      hiddenInList: false # hide on list pages and home
+      hiddenInSingle: false # hide on single page
 
   fuseOpts:
       isCaseSensitive: false

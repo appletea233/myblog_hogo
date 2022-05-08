@@ -239,3 +239,21 @@ body,html
     font-family:'Noto Serif SC', serif;
     /* font-weight:300;color:#444 background-color: #ecf0f1; */
 }
+
+.button:hover {
+    transition: transform 0.5s;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.15) translateZ(0) translate3d(0, 0, 0) rotate(0.01deg);
+}
+
+/* .social-icons:hover {
+    transition: transform 0.5s;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.15) translateZ(0) translate3d(0, 0, 0) rotate(0.01deg);
+} */
