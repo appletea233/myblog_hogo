@@ -257,3 +257,20 @@ body,html
     -o-transform: scale(1.2);
     transform: scale(1.15) translateZ(0) translate3d(0, 0, 0) rotate(0.01deg);
 } */
+
+/* 字体设置 */
+body {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: STKaiti, STKaitiSC-Bold, YouYuan, arial
+}
+
+/* .post-content code {
+    font-size: .8em;
+    line-height: 1.3;
+    font-family: monospace
+} */
+
+.post-content {
+    font-family: STKaiti, STKaitiSC-Bold, YouYuan, arial
+}
