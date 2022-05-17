@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>MIPS汇编基础</title>
+      <link>http://appletea233.github.io/myblog_hogo/posts/blog/%E6%B1%87%E7%BC%96%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://appletea233.github.io/myblog_hogo/posts/blog/%E6%B1%87%E7%BC%96%E7%AC%94%E8%AE%B0/</guid>
+      <description>基础知识 寄存器 基础操作 系统调用 GCD最大公约数 主要考察循环，使用$j$指令进行代码块间的跳转 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</description>
+    </item>
+    
+    <item>
       <title>My First Post</title>
       <link>http://appletea233.github.io/myblog_hogo/posts/blog/my-first-post/</link>
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
