@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>os on Appletea&#39;s Blog</title>
+    <link>http://appletea233.github.io/myblog_hogo/tags/os/</link>
+    <description>Recent content in os on Appletea&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 08 May 2022 17:43:03 +0800</lastBuildDate><atom:link href="http://appletea233.github.io/myblog_hogo/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BUAA操作系统lab3笔记</title>
+      <link>http://appletea233.github.io/myblog_hogo/posts/blog/%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Sun, 08 May 2022 17:43:03 +0800</pubDate>
+      
+      <guid>http://appletea233.github.io/myblog_hogo/posts/blog/%E6%96%87%E6%A1%A3/</guid>
+      <description>如题</description>
+    </item>
+    
+  </channel>
+</rss>
