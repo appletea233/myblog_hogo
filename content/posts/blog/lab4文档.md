@@ -1,8 +1,8 @@
 ---
 title: "BUAA操作系统lab4笔记"
 description: "如题"
-date: 2022-05-08T17:43:03+08:00
-lastmod: 2022-05-08T17:43:03+08:00
+date: 2022-05-19T1:00:03+08:00
+lastmod: 2022-05-19T1:00:03+08:00
 draft: false
 author: ["Appletea"]
 
